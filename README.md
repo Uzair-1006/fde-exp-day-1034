@@ -17,6 +17,7 @@ provision-credentials.ps1          pushes fde-credentials.env into Secrets + Var
 fde-credentials.env.example        the full expected variable set (never commit the real one)
 ```
 
+
 Organizer-owned / shared-everyone assets (leaderboard, agentgateway
 config, loop-detection design) intentionally live in the sibling
 `fde-centralized/` folder, NOT in this participant repo — CI/CD here never
